@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      direction: rtl;
+    }
+    .header_menu {
+      width: 90%;
+      height: 100px;
+      /* background-color: black; */
+      display: flex;
+      /* align-items: flex-start; */
+      margin: 0 90px;
+    }
+    .header_menu > * {
+      height: 100%;
+      display: flex;
+      align-items: flex-end;
+      font-weight: bold;
+      /* border: 1px solid white; */
+    }
+    .header_menu > .logo {
+      width: 25%;
+    }
+    .header_menu > nav {
+      width: 35%;
+    }
+    .header_menu > nav > ul {
+      display: flex;
+    }
+    .header_menu > nav > ul > li {
+      list-style-type: none;
+      width: fit-content;
+      padding: 11px 20px;
+    }
+    .header_menu > nav > ul > li > a {
+      text-decoration: none;
+      color: gray;
+      font-size: 1.3rem;
+      font-family: NovinNeueExtraBold, Diodrum, Arial, tahoma, Verdana;
+    }
+    .header_menu > nav > ul > li > a:hover {
+      color: red;
+    }
+    .header_menu > .left {
+      width: 40%;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .header_menu > .left > .links {
+      width: 200px;
+      padding: 5px;
+      transition: 0.4s;
+    }
+    .header_menu > .left > .links i {
+      font-size: 1.5vw;
+      margin-left: 20px;
+    }
+    .header_menu > .left > .links > a {
+      font-size: 1.7rem;
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      text-decoration: none;
+    }
+    .header_menu > .left > .links > :hover {
+      color: red;
+    }
+    .header_menu > .left > .links > * {
+      width: 100%;
+      color: gray;
+    }
+    .header_menu > .left > .icon {
+      width: 30%;
+      height: 50%;
+      background-color: red;
+    }
+    .header_menu > .left > .icon > a {
+      display: flex;
+      text-decoration: none;
+      transition: 0.4s;
+    }
+    .header_menu > .left > .icon > a > span {
+      width: 100%;
+      height: 100%;
+      line-height: 50px;
+      display: flex;
+      justify-content: end;
+      padding-left: 20px;
+      color: white;
+      font-size: 1.3rem;
+    }
+    .header_menu > .left > .icon > a > img {
+      width: 40%;
+      margin-top: -7px;
+    }
+    .header_menu > .left > .icon:hover {
+      background-color: rgb(93, 6, 93);
+    }
+  </style>
+  <body>
+    <main>
+      <div class="header_menu">
+        <div class="logo">
+          <a href="https://enbank.ir" target="_blank">
+            <img src="./img/menu/headerLogo.png" alt=""
+          /></a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="">خدمات</a></li>
+            <li><a href="">بانکداری الکترونیکی</a></li>
+            <li><a href=""> درباره ما</a></li>
+            <li><a href="">ارتباط با ما</a></li>
+          </ul>
+        </nav>
+        <div class="left">
+          <div class="links">
+            <i class="bi bi-search"></i>
+            <a href=""><i class="bi bi-telephone"></i></a>
+            <a href="">En</a>
+          </div>
+          <div class="icon">
+            <a href="https://modern.enbank.ir/netway/"
+              ><span>اینترنت بانک </span><img src="img/menu/icons.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    </main>
+  </body>
+</html>
